@@ -26,3 +26,20 @@ console.log(text + counter)
 
 counter += 1
 console.log(text + counter)
+
+//
+
+let price = 10
+price ++
+price ++
+price ++
+console.log("Price: " + price)
+
+let newPrice = 10
+newPrice += 3
+console.log("New Price: " + newPrice)
+
+//
+
+let result = (2 + 5) * 5
+console.log(result)
