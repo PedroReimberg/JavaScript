@@ -43,3 +43,23 @@ function toast2(bread, value= 10, name = "Client"){
 
 //return
 
+let result = sum(5, 5)
+
+console.log("The result of the sum is: " + result)
+
+function sum(numA, numB){
+    let add = numA + numB
+    return add //or return numA + numB
+}
+
+//
+let nameOfUser = getFirstName("Pedro-Henrique-Reimberg", "-")
+console.log(nameOfUser)
+
+let nameOfUser2 = getFirstName("Pedro Henrique Reimberg")
+console.log(nameOfUser)
+
+function getFirstName(name, splitChar = " "){
+    let firstName = name.split(splitChar)[0]
+    return firstName
+}
